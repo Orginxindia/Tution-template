@@ -133,10 +133,10 @@ a {
 }
 
 .section-padding {
-  padding: 7.5rem 0;
+  padding: 4.5rem 0;
 }
 @media (max-width: 768px) {
-  .section-padding { padding: 4.5rem 0; }
+  .section-padding { padding: 2.5rem 0; }
 }
 
 .badge {
@@ -165,7 +165,7 @@ a {
 .section-title-wrapper {
   text-align: center;
   max-width: 700px;
-  margin: 0 auto 5rem auto;
+  margin: 0 auto 3rem auto;
 }
 .section-title {
   font-family: var(--font-heading);
@@ -454,9 +454,14 @@ a {
               var(--bg-surface);
   color: var(--text-main);
   position: relative;
-  padding: 8rem 0 7rem 0;
+  padding: 5rem 0 4rem 0;
   overflow: hidden;
   border-bottom: 1.5px solid var(--border-light);
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 0 2.5rem 0;
+  }
 }
 .dark-theme .hero {
   background: radial-gradient(circle at 85% 15%, #231221 0%, rgba(5, 8, 17, 0) 45%),
@@ -585,7 +590,7 @@ a {
 .stats {
   background-color: var(--bg-surface);
   border-bottom: 1px solid var(--border-light);
-  padding: 3rem 0;
+  padding: 1.75rem 0;
   position: relative;
   z-index: 30;
   box-shadow: var(--shadow-sm);
