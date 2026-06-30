@@ -53,7 +53,7 @@ export default function FAQ() {
               
               <div 
                 className="faq-answer" 
-                style={{ maxHeight: openId === item.id ? '200px' : '0px' }}
+                style={{ maxHeight: openId === item.id ? '500px' : '0px' }}
               >
                 <div className="faq-answer-content">
                   {item.answer}
